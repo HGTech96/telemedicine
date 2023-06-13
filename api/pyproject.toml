@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "telemedicine"
+version = "0.1.0"
+description = ""
+authors = ["HGTech96 <gumroyan96@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flake8 = "^6.0.0"
+django = "^4.2.2"
+django-admin = "^2.0.2"
+djangorestframework = "^3.14.0"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
